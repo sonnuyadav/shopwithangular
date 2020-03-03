@@ -6,11 +6,15 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { InputFormDirective } from './input-form.directive';
+import { ContactFormComponent } from './contact-form/contact-form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CoursesComponent
+    CoursesComponent,
+    InputFormDirective,
+    ContactFormComponent
   ],
   imports: [
     BrowserModule,
